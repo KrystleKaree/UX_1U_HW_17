@@ -1,0 +1,138 @@
+/* TOP NAV */
+
+header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 104px;
+    left: 0px;
+    top: 0px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.logo {
+    position: absolute;
+    left: 4.86%;
+    right: 91.67%;
+    top: 28.85%;
+    bottom: 23.08%;
+}
+
+.topNav a {
+    float: right;
+    color: #CF8996;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topNav a:hover {
+    background-color: none;
+    color: white;
+}
+
+.topNav a.active {
+    background-color: none;
+    color: #BA7784;
+    position: absolute;
+left: 58.33%;
+right: 27.78%;
+top: 38.46%;
+bottom: 29.81%;
+}
+
+.topNav a.aboutNav {
+    position: absolute;
+left: 73.61%;
+right: 12.5%;
+top: 38.46%;
+bottom: 29.81%;
+
+}
+
+button.resumeButton {
+    background-color: #CF8996;
+    border: none;
+    color: white;
+    padding: 5px 16px;
+    cursor: pointer;
+    font-size: medium;
+    align-items: center;
+    border-radius: 15px;
+
+    position: absolute;
+    left: 87.5%;
+    right: 4.72%;
+    top: 37.5%;
+    bottom: 30.77%;
+}
+
+section.heroImage {
+    
+    position: absolute;
+width: 100%;
+height: 920px;
+left: 0px;
+top: 104px;
+background-color: black;
+}
+
+.headshot {
+    position: static;
+width: 837px;
+height: 920px;
+left: 0px;
+top: 192px;
+}
+
+.content h1 {
+    position: absolute;
+width: 309px;
+height: 48px;
+left: 841px;
+top: 548px;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 48px;
+color: #CF8996;
+}
+
+.content p {
+    position: absolute;
+width: 419px;
+height: 10px;
+left: 841px;
+top: 603px;
+padding: 15px;
+font-family: Lora;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+color: #C4C4C4;
+}
+
+
+.content p .skill1 {
+    position: absolute;
+width: 200px;
+height: 19px;
+left: 840px;
+top: 656px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+text-transform: uppercase;
+
+color: #CF8996;
+}
+
+
+
+
