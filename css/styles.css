@@ -1,3 +1,8 @@
+
+body {
+    background: black;
+}
+
 /* TOP NAV */
 
 header {
@@ -26,6 +31,7 @@ header {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .topNav a:hover {
@@ -66,6 +72,8 @@ button {
     cursor: pointer;
     background: #CF8996;
     border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 button:hover {
@@ -75,42 +83,90 @@ button:hover {
 
 /* HERO SECTION */
 
-section.heroImage {
-    
-    position: absolute;
-width: 100%;
-height: 920px;
-left: 0px;
-top: 104px;
-background-color: black;
-z-index: 1;
+#heroSection {
+    background-color:black;
+    height: 1080px;
 }
 
-.headshot {
+.heroImage {
     position: relative;
-    left: 60px;
-    bottom: 13px;
+    margin: 6px;
+    border: 12px;
+    padding: 18px;
+    width: 48px;
+    height: 48px;
+    top: 202px;
+    left: 150px;
 }
 
 .content {
     position: absolute;
-width: 309px;
-height: 48px;
-left: 1000px;
-top: 548px;
-color: #CF8996;
+    width: 309px;
+    height: 48px;
+    left: 941px;
+    top: 548px;
+    font-family:'Montserrat', sans-serif;
+    color: #CF8996;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.tagline {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #C4C4C4;
 }
 
 /* SKILLS */
 
-.skills {
-    position: absolute;
+.skillsContainer{
     width: 100%;
     height: 256px;
-    left: 0px;
-    top: 1024px;
-    
-    background: #CF8996;
+    background-color: #CF8996;
+}
+
+.userResearch {
+    display: inline-block;
+    padding: 50px;
+    margin: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.uxDesign {
+    display: inline-block;
+    padding: 50px;
+    margin: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+
+}
+
+.webDesign {
+    display: inline-block;
+    padding: 50px;
+    margin: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.visualDesign {
+    display: inline-block;
+    padding: 50px;
+    margin: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.skillsContainer img {
+   width: 48px;
+   height: 48px;
 }
 
 
