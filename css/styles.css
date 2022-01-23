@@ -7,7 +7,7 @@ header {
     height: 104px;
     left: 0px;
     top: 0px;
-
+    z-index: 99;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -37,37 +37,43 @@ header {
     background-color: none;
     color: #BA7784;
     position: absolute;
-left: 58.33%;
-right: 27.78%;
-top: 38.46%;
-bottom: 29.81%;
+    left: 58.33%;
+    right: 27.78%;
+    top: 38.46%;
+    bottom: 29.81%;
 }
 
 .topNav a.aboutNav {
     position: absolute;
-left: 73.61%;
-right: 12.5%;
-top: 38.46%;
-bottom: 29.81%;
+    left: 73.61%;
+    right: 12.5%;
+    top: 38.46%;
+    bottom: 29.81%;
+}   
 
-}
-
-button.resumeButton {
-    background-color: #CF8996;
+button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7px 18px;
+    position: absolute;
+    left: 88.5%;
+    right: 5.72%;
+    top: 36.5%;
+    bottom: 30.77%;
     border: none;
     color: white;
-    padding: 5px 16px;
     cursor: pointer;
-    font-size: medium;
-    align-items: center;
+    background: #CF8996;
     border-radius: 15px;
-
-    position: absolute;
-    left: 87.5%;
-    right: 4.72%;
-    top: 37.5%;
-    bottom: 30.77%;
 }
+
+button:hover {
+    background: white;
+    color: #CF8996;
+}
+
+/* HERO SECTION */
 
 section.heroImage {
     
@@ -77,26 +83,38 @@ height: 920px;
 left: 0px;
 top: 104px;
 background-color: black;
+z-index: 1;
 }
 
 .headshot {
-    position: static;
-width: 837px;
-height: 920px;
-left: 0px;
-top: 192px;
+    position: relative;
+    left: 60px;
+    bottom: 13px;
 }
 
 .content {
-    padding: 10%;
-    color: white;
-    display: block;
     position: absolute;
-width: 319px;
-height: 280px;
-left: 840px;
-top: 528px;
+width: 309px;
+height: 48px;
+left: 1000px;
+top: 548px;
+color: #CF8996;
 }
+
+/* SKILLS */
+
+.skills {
+    position: absolute;
+    width: 100%;
+    height: 256px;
+    left: 0px;
+    top: 1024px;
+    
+    background: #CF8996;
+}
+
+
+
    
 
 
