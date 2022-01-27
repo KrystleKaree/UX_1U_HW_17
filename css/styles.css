@@ -99,6 +99,7 @@ button:hover {
     left: 150px;
 }
 
+
 .content {
     position: absolute;
     width: 309px;
@@ -107,6 +108,12 @@ button:hover {
     top: 548px;
     font-family:'Montserrat', sans-serif;
     color: #CF8996;
+}
+
+.skillText {
+    font-family:'Montserrat', sans-serif;
+    color: #CF8996;
+
 }
 
 h1 {
@@ -199,63 +206,38 @@ span {
 
 /* CASE STUDIES */
 
-.caseStudies {
-    position: absolute;
-    width: 100%;
-    height: 1156px;
-    top: 1344px;
-    left: 0; 
-    background-color: #1B1B1B;
+#portfolioWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5%;
+    margin-top: 10%;
 }
 
-.visueatsApp {
-    position: relative;
-    display: inline-block;
-    width: 894px;
-    background-color: black;
-}
-
-.visueatsAdmin {
-    position: relative;
-    display: inline-block;
-    width: 894px;
-    background-color: #1B1B1B;
-}
-
-.ftcWebsite {
-    position: relative;
-    display: inline-block;
-    width: 894px;
-    background-color: #1B1B1B;
-}
-
-.bridgeApp {
-    position: relative;
-    display: inline-block;
-    width: 894px;
-    background-color: black;
-}
-
-.visueatsappText {
+p {
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
-.visueatsadminText {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+.visueatsappMockup {
+    position: relative;
+    left: 25%;
 }
 
-.ftcwebsiteText {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+.visueatsadminMockup {
+    position: relative;
+    left: 25%;
 }
 
-.bridgeappText {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+.ftcMockup {
+    position: relative;
+    left: 25%;
 }
 
+.bridgeMockup {
+    position: relative;
+    left: 25%;
+
+}
 
 
 
