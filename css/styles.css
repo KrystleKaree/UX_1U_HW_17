@@ -286,6 +286,29 @@ hr {
     border-color: #CF8996;
 }
 
+.footer-container {
+    padding: 1rem;
+}
+
+.footer{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+i {
+    color: white;
+    margin-top: 1rem;
+}
+
+.socialLink {
+    margin-left: 16rem;
+}
+
+.copyrightInfo {
+    margin-left: 8rem;
+}
 
 
 
