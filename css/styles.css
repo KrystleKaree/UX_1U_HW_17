@@ -161,8 +161,6 @@ span {
     height: 50px;
     padding: 25px;
     left: 10px
-    
-
 }
 
 .uxDesign {
@@ -209,8 +207,8 @@ span {
 #portfolioWrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 5%;
-    margin-top: 10%;
+    padding: 0%;
+    margin-top: 240px;
 }
 
 p {
@@ -220,24 +218,80 @@ p {
 
 .visueatsappMockup {
     position: relative;
-    left: 25%;
+    left: 40%;
 }
 
 .visueatsadminMockup {
     position: relative;
-    left: 25%;
+    left: 40%;
 }
 
 .ftcMockup {
     position: relative;
-    left: 25%;
+    left: 40%;
 }
 
 .bridgeMockup {
     position: relative;
-    left: 25%;
+    left: 40%;
+}
+
+.projectTitle {
+    position: relative;
+    left: 10%;
+}
+
+.projectDescription {
+    position: relative;
+    left: 10%;
 
 }
+
+.projectType {
+    position: relative;
+    left: 10%;
+    font-weight: bold;
+}
+
+#visueatsAdmin {
+    background-color: #1B1B1B;
+    left: 100%;
+}
+
+#ftcWebsite {
+    background-color: #1B1B1B;
+}
+
+/* PORTFOLIO */
+
+#graphicsWrapper {
+    background: #151515;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 20%;
+}
+
+.graphicsHeader {
+    grid-column: 1/5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #CF8996;
+    position: relative;
+    left: 25%;
+}
+
+hr {
+    background-color: #CF8996;
+    height: 1px;
+    border-color: #CF8996;
+}
+
+.footerElements {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
 
 
 
