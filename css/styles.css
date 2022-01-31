@@ -286,10 +286,6 @@ hr {
     border-color: #CF8996;
 }
 
-.footerElements {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
 
 
 
