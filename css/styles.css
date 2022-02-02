@@ -85,7 +85,10 @@ button:hover {
 
 #heroSection {
     background-color:black;
+    width: 100%;
     height: 1080px;
+    margin: 0;
+    padding: 0;
 }
 
 .heroImage {
@@ -129,10 +132,9 @@ h1 {
 /* SKILLS */
 
 .pinkContainer {
-    position: absolute;
+    display: flex;
     width: 100%;
     height: 256px;
-    left: 0px;
     background-color: #CF8996;
 }
 
@@ -207,10 +209,10 @@ span {
 #portfolioWrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 0%;
     width: 100%;
-    margin-top: 240px;
+    margin-top: -15px;
 }
+
 
 p {
     font-family: 'Montserrat', sans-serif;
@@ -291,9 +293,6 @@ p {
 
 }
 
-
-
-
 /*FOOTER*/
 
 hr {
@@ -326,8 +325,29 @@ i {
     margin-left: 8rem;
 }
 
+@media only screen and (max-width: 480px){
+  
+    header  {
+        width: 100%;
+    }
+    .heroImage {
+        left: 5%;
+    }
+    .content {
+        left: 150%;
+    }
+
+    .skillsContainer {
+        font-size: 14px;
+        gap: 1rem;
+        margin-left: 20rem;
+        text-align: center;
+        background-color: #CF8996;
+    }
+   
 
 
+}
 
 
 
