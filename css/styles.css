@@ -224,7 +224,7 @@ p {
 }
 
 #visueatsApp:hover{
-    background-color: #1B1B1B;
+    background-color: #2B2A2A;
     cursor: pointer;
 }
 
@@ -240,7 +240,7 @@ p {
 }
 
 #ftcWebsite:hover{
-    background-color: black;
+    background-color: #2B2A2A;
     cursor: pointer;
 }
 
@@ -250,7 +250,7 @@ p {
 }
 
 #bridgeApp:hover{
-    background-color:#1B1B1B;
+    background-color:#2B2A2A;
     cursor: pointer;
 }
 
@@ -283,7 +283,7 @@ p {
 }
 
 #visueatsAdmin:hover{
-    background-color: black;
+    background-color: #2B2A2A;
     cursor: pointer;
 }
 
