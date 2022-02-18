@@ -223,19 +223,35 @@ p {
     font-weight: bolder;
 }
 
+#visueatsApp:hover{
+    background-color: #1B1B1B;
+    cursor: pointer;
+}
+
 .visueatsappMockup {
     position: relative;
     left: 40%;
 }
+
 
 .visueatsadminMockup {
     position: relative;
     left: 40%;
 }
 
+#ftcWebsite:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
 .ftcMockup {
     position: relative;
     left: 40%;
+}
+
+#bridgeApp:hover{
+    background-color:#1B1B1B;
+    cursor: pointer;
 }
 
 .bridgeMockup {
@@ -264,6 +280,11 @@ p {
 #visueatsAdmin {
     background-color: #1B1B1B;
     left: 100%;
+}
+
+#visueatsAdmin:hover{
+    background-color: black;
+    cursor: pointer;
 }
 
 #ftcWebsite {
